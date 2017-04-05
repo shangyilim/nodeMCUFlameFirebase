@@ -69,7 +69,7 @@ void uploadFirebase(){
       Serial.println("starting to connect");
       
       client.println("POST /flame.json HTTP/1.1");
-      client.println("Host: home-sensor-70625.firebaseio.com");
+      client.println("Host: app-name.firebaseio.com");
       client.println("Cache-Control: no-cache");
       client.println("Content-Type: application/json");
       client.print("Content-Length: ");
